@@ -10,7 +10,7 @@ END
 START
 Einfach (beide Richtungen)
 Vorderseite: Was versteht man unter einer demilitarisierte Zone (DMZ)?
-Rückseite: Ein spezielles Netzwerk das als eine Art Puffer zwischen dem externen Internet und dem internen Netz. Von außen erreichbare Dienste wie Webserver oder Mailserver werden darin betrieben.
+Rückseite: Ein spezielles Netzwerk das als eine Art Puffer zwischen dem externen Internet und dem internen Netz darstellt. Von außen erreichbare Dienste wie Webserver oder Mailserver werden üblicherweise darin betrieben.
 END
 
 START
@@ -22,7 +22,7 @@ END
 START
 Einfach (beide Richtungen)
 Vorderseite: VPN - Virtual Private Network
-Rückseite: Tunnel-Verbindung zwischen dem Client und dem Unternehmensnetzwerk (Client-to-Server) oder zwischen Standorten von Unternehmen
+Rückseite: Ein  (Virtual Private Network) ist ein sicherer Tunnel, der eine verschlüsselte Verbindung zwischen einem Benutzer und (z.B.) einem entfernten Server herstellt, um den Datenschutz und die Sicherheit im Internet zu verbessern, insbesondere beim Surfen in öffentlichen Netzwerken. 
 END
 
 START
@@ -210,6 +210,12 @@ END
 
 START
 Einfach
+Vorderseite: Was ist Docker?
+Rückseite: Docker ist eine Plattform, mit der Entwickler Anwendungen in Containern erstellen, bereitstellen und ausführen können. Ein Container ist eine isolierte, portable Umgebung, die alle notwendigen Abhängigkeiten enthält, um eine Anwendung auszuführen
+END
+
+START
+Einfach
 Vorderseite: Welchen Zweck erfüllt ein Dockerfile?
 Rückseite:   
 In einem Dockerfile definiert man in einzelnen Schritten die Erstellung eines Images, beginnend mit einem Basisimage und endend mit einem lauffähigen Container.
@@ -270,12 +276,95 @@ END
 
 START
 Einfach
-Vorderseite: Nenne die 3 Pfeiler der CIA-Triade?
-Rückseite: Confidentiality (Vertraulichkeit), Integrity (Inegrität/Korrektheit), Availability (Verfügbarkeit)  
+Vorderseite: Nenne die 3 Pfeiler der CIA-Triade
+Rückseite: Confidentiality (Vertraulichkeit), Integrity (Integrität/Korrektheit), Availability (Verfügbarkeit)  
+END
+
+START
+Einfach
+Vorderseite: Was Bedeutet Salt bei einer Hashfunktion
+Rückseite: Mit Hilfe von Salts und dem Hashing werden Angriffe auf gehashte Passwörter beispielsweise über Rainbow-Tabellen verhindert
+END
+
+START
+Einfach
+Vorderseite: Defense-in-Depth (DID)
+Rückseite: Es ist ein Sicherheitskonzept, das darauf abzielt, ein System oder Netzwerk durch mehrere Schutzebenen zu sichern.
+END
+
+START
+Einfach
+Vorderseite: DSGVO Grundsätze
+Rückseite:
+- Treu und Glauben, Rechtmäßigkeit und Transparenz
+- Zweckbindung
+- Datenminimierung
+- Richtigkeit
+- Speicherbegrenzung
+- Integrität und Vertraulichkeit
+- Rechenschaftspflicht
 END
 
 START
 Einfach (beide Richtungen)
 Vorderseite: Was ist **Github**?
 Rückseite: Eine webbasierte Plattform, die für die Versionskontrolle und Zusammenarbeit bei der Softwareentwicklung verwendet wird.
+END
+
+START
+Einfach (beide Richtungen)
+Vorderseite: Was sind Topologien in einem Netzwerk?
+Rückseite: Die Topologie eines Netzwerks beschreibt, in welcher physikalischen Grundform die einzelnen Geräte organisiert sind. Es werden im Wesentlichen folgende Grundformen unterschieden:
+• Bus-Topologie
+• Ring-Topologie
+• Stern-Topologie
+END
+
+START
+Einfach (beide Richtungen)
+Vorderseite: Was ist ein SIEM-System?
+Rückseite: Ein Security Information and Event Management-System ist ein Tool zur Überwachung von Netzwerken. Es wird oft vom SOC eingesetzt.
+END
+
+START
+Einfach
+Vorderseite: Was ist ein SOC?
+Rückseite: Das Security Operations Center/Centre beschreibt das Team, das das Netzwerk eines Unternehmens überwacht und auf Auffälligkeiten überprüft. Es werden interne und externe Gefahren geprüft.
+END
+
+START
+Einfach
+Vorderseite: Was bedeutet die Abkürzung IR?
+Rückseite: Incident Response (IR) ist der Oberbegriff für die Behandlung von Vorfällen in der Cybersecurity.
+END
+
+START
+Einfach
+Vorderseite: Was sind die Grundsätze der DSGVO?
+Rückseite:
+* Rechtmäßigkeit
+* Zweckbindung
+* Datenminimierung
+* Richtigkeit
+* Speicherbegrenzung
+* Integrität und Vetraulichkeit
+* Rechenschaftsplicht
+END
+
+START
+Einfach
+Vorderseite: Was sind die Rechte für Betroffene laut der DSGVO?
+Rückseite:
+* Das Recht der Berechtigung
+* Das Recht der Löschung
+* Das Recht auf Einschränkung der Verarbeitung 
+* Das Recht auf Widerspruch
+* Das Recht auf Datenübertragbarkeit
+END
+
+START
+Einfach (beide Richtungen)
+Vorderseite: Was ist der Layer 5 beim OSI-Modell?
+Rückseite: Session - Layer / Sitzungsschicht
+SIP, RTP, RCP-named pipes
 END
